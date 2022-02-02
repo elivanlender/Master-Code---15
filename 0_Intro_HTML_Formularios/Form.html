@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+    <style>
+        body{
+            background-color: rgba(255, 178, 71, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <H1><b>Personal info</b></H1> 
+    <p><i>Please enter your personal info please!</i></p> 
+    <div>
+        <form action="contacto.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id ="name">
+            <label for="last">Last Name</label>
+            <input type="text" name="last" id ="last">
+            <br/>
+            <label for="age">Age</label>
+            <input type="number" name="age" id ="age">
+            <br/>
+            <label for="mail">e-mail</label>
+            <input type="email" name="mail" id ="mail">
+            <br/>   
+            <br/>
+            <h3>Gender</h3>        
+            <input type="radio" name="gender" id ="male">
+            <label for="male">Male</label>
+            <br/>
+            <input type="radio" name="gender" id ="female">
+            <label for="female">Female</label>
+            <br/>
+            <input type="radio" name="gender" id ="binary">
+            <label for="binary">No binary</label>
+            <br/>
+            <br/>
+            <label for="pass">Password</label>
+            <input type="password" name ="pass" id="pass">
+            <br/>
+            <br/>
+            <div>
+                <h3>What is your actual course?</h3>
+                <select name="Course" id="course">
+                    <option value=" ">---Select an option---</option>
+                    <option value="Master">Master in Coding</option>
+                    <option value="Data">Data Science</option>
+                    <option value="Marketing">Digital Marketing</option>
+                </select>
+                <br/>
+            </div>
+            <div>
+                <h3>Have a favourite color? Tell us!!</h3>
+                <label for="color">Your favourite color!: </label>
+                <input type="color" name="color" id="color">
+                <br/>
+            </div>
+            <div>
+                <br/>
+                <input type="checkbox" name="accep" id="accep">
+                <label for="accep">I accept the terms and uses for this process</label>
+                <input type="checkbox" name="understood" id="understood">
+                <label for="understood">I had understood this lesson, thanks!</label>
+            </div>
+            <br/>
+            <br/>
+            <input type="submit" name="submit" value="Let's go!!">
+
+        </form>
+    </div>  
+</body>
+</html>
