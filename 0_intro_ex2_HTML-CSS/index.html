@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>        
+      div:not([class="divider"]) {
+        background-color: orange;
+        text-align: center;
+        color: white;
+      }
+      .divider {
+        height: 20px;
+      }
+
+      /* Aca van sus estilos */
+      body{
+            background-color: rgba(255, 20, 15, .5);
+        }
+        .content{
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+            margin: 24px;            
+        }
+        #padding{
+            padding: 48px
+        }
+        .border{
+            border: 3px solid greenyellow
+        }
+        #margin{
+            margin: 50px;
+        }
+        .outline{
+            outline: 2px solid red;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- https://www.w3schools.com/css/css_dimension.asp -->
+    <div class="content">Contenido</div>
+    <div class="divider"></div>
+
+    <!-- https://www.w3schools.com/css/css_padding.asp -->
+    <div id="padding">Padding</div>
+    <div class="divider"></div>
+
+    <!-- https://www.w3schools.com/css/css_border.asp -->
+    <div class="border">Borde</div>
+    <div class="divider"></div>
+
+    <!-- https://www.w3schools.com/css/css_margin.asp -->
+    <div id="margin">Margin</div>
+    <div class="divider"></div>
+
+    <!-- https://www.w3schools.com/css/css_outline.asp -->
+    <div class="outline">Outline</div>
+  </body>
+</html>

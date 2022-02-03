@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background: whitesmoke;
+}
+figure{
+    margin: 0;
+}
+nav{
+    background-color: #C72D82;
+    text-align: center;  
+    padding-top: 8px;
+    padding-bottom: 8px;          
+}
+nav a {
+    color: white;
+    text-decoration: none;            
+}
+h2{
+    color: #41A4DD;
+}
+article img{
+    width: 240px;
+}
+article button{
+    font-weight: bolder;
+    background-color: #41A4DD;
+    color: white;
+    border-color: #41A4DD;
+    padding: 4px 16px;
+}
+aside a{
+    color: #41A4DD;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+footer{
+    background-color: #C72D82;
+    color: white;
+}
+footer > div{
+    background-color: #9C2467;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px 0;
+}
