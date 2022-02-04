@@ -10,7 +10,7 @@
 <body>
     <header>
         <figure>
-            <img src="img/logo.png" alt="Banner del blog de viajes" width="400">
+            <img src="img/logo.png" alt="Banner del blog de viajes" width="600">
         </figure>
     </header>
     <nav>
@@ -26,9 +26,9 @@
                 <h2><b>London Eye</b></h2>
                 <div>
                     <figure>
-                        <img src="img/imagen_1.jpg">
+                        <img src="img/imagen_1.jpg", width="250">
                     </figure>
-                    <p class="extracto">
+                    <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt provident possimus saepe consequatur iure deleniti aliquam consectetur eligendi, hic doloremque perferendis architecto minus, minima eaque magnam ut veniam dolores.
                     </p>
                     <button>LEER MÁS</button>
@@ -36,23 +36,27 @@
             </article>
             <article>
                 <h2><b>Tower Bridge</b></h2>
-                <figure>
-                    <img src="img/imagen_2.jpg", width="250">
-                </figure>
-                <p class="extracto">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt provident possimus saepe consequatur iure deleniti aliquam consectetur eligendi, hic doloremque perferendis architecto minus, minima eaque magnam ut veniam dolores.
-                </p>
-                <button>LEER MÁS</button>
+                <div>
+                    <figure>
+                        <img src="img/imagen_2.jpg", width="250">
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt provident possimus saepe consequatur iure deleniti aliquam consectetur eligendi, hic doloremque perferendis architecto minus, minima eaque magnam ut veniam dolores.
+                    </p>
+                    <a href="https://www.towerbridge.org.uk/your-visit?utm_source=google&utm_medium=tb_search&utm_campaign=Q3&gclid=Cj0KCQiArt6PBhCoARIsAMF5waiVyL7BqSN_qsa2HhaDWHD_XrB2QPZYzSC8wDFY7P6D9mCJXVO8xvsaArgPEALw_wcB", target="_blank">LEER MÁS</a>
+                </div>                
             </article>
             <article>
                 <h2><b>London Tube</b></h2>
-                <figure>
-                    <img src="img/imagen_3.jpg", width="250">
-                </figure>
-                <p class="extracto">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt provident possimus saepe consequatur iure deleniti aliquam consectetur eligendi, hic doloremque perferendis architecto minus, minima eaque magnam ut veniam dolores.
-                </p>
-                <button>LEER MÁS</button>
+                <div>
+                    <figure>
+                        <img src="img/imagen_3.jpg", width="250">
+                    </figure>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum incidunt provident possimus saepe consequatur iure deleniti aliquam consectetur eligendi, hic doloremque perferendis architecto minus, minima eaque magnam ut veniam dolores.
+                    </p>
+                    <a href="https://tfl.gov.uk/modes/tube/", target="_blank">LEER MÁS</a>
+                </div>                
             </article>
         </section>
         <aside>
@@ -69,12 +73,12 @@
         <section>
             <article>
                 <a name="Nosotros"><h3><b>Sobre Nosotros</b></h3></a>
-            <p class="nosotros">
+            <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur nam accusamus soluta repellat totam, amet repellendus molestiae repudiandae vero tempora, quos earum exercitationem sequi eius, voluptate eveniet inventore velit ratione!
             </p>
             </article>
-            <article class="Nav2">
-                <a name="Menú"><h4><b>Menú de Navegación</b></h4></a>
+            <article>
+                <a name="Menú" id="nav2"><h4><b>Menú de Navegación</b></h4></a>
                 <nav>
                     <a href="index.html">Inicio</a>
                     <a href="nosotros.html">Nosotros</a>
@@ -84,11 +88,11 @@
                 </nav>            
             </article>            
         </section>
-        <div>
-            <p class="derechos">
+        <section>
+            <p>
                 Blog de viajes  Todos los derechos reservados 2022 ©
             </p>
-        </div>
+        </section>
     </footer>
 </body>
 </html>

@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+      /* Header */
+      header img {
+        padding-right: 20%;
+        padding-left: 10%;
+        width: 360px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+      }
+      /* Nav */
+      nav {        
+        background-color: #c72d82;
+        text-align: left;
+        padding: 16px 10%; 
+        margin-bottom: 25px;   
+      }
+      nav a {        
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+      }
+      /* Main */
+      main{   
+        padding-left: 10%;
+        padding-right: 20%;  
+        overflow: auto;   
+      }
+      h2 {
+        color: #41a4dd;
+      }
+      .blog{
+        float: left;
+        width: 75%;
+      }
+      article img {
+        float: left;
+        width: 240px;
+        margin-right: 20px;
+      }
+      .arti{
+        overflow: auto;
+      }
+      .arti p{
+        text-align: justify;
+        margin: 0;
+      }
+      article button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        background-color: #41a4dd;
+        color: white;
+        border-color: #41a4dd;
+        padding: 12px 40px;
+      }     
+      aside{
+        width: 20%;
+        float: right;
+      } 
+      aside a {       
+        color: #41a4dd;
+        text-decoration: none;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 8px;
+      }
+      .post{
+        margin-bottom: 10px;
+      }
+      /* Footer */
+      footer{
+        margin-top: 50px;
+        overflow: auto;
+        background-color: #c72d82;        
+      }
+      .foot {
+        background-color: #c72d82;
+        overflow: auto;
+      }
+      #AboutUs{
+        color: white;
+        float: left;
+        width: 30%;
+        max-width: 30%;
+        padding-left: 10%;
+      }      
+      #Nav2{
+        color: white;
+        float: right;
+        width: 30%;
+        max-width: 30%;
+        text-align: right; 
+        padding-right: 20%;       
+      }
+      #Nav2 > a{
+        color: white;
+        text-decoration: none;
+      }
+      #der {
+        background-color: #9c2467;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 10px 0;
+        margin: 0;
+      }
