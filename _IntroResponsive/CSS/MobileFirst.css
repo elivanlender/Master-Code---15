@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+}
+
+#b1, #b2{
+    background-color: rebeccapurple;
+    margin: 10px;
+    display: block;
+}
+#b3{
+    background-color: coral;
+    margin: 10px;
+    display: block;
+}
+@media screen and (min-width: 400px) {   
+    #b1, #b2{
+        display: inline;
+        width: 50%;
+    }
+    #b3{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    body{
+        background-color: cadetblue;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        background-color: crimson;
+    }
+}
