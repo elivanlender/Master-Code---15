@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+@media screen and (max-width: 3000px) {
+    .logo{
+        padding-left:15%;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        width: 400px;
+    }  
+    nav{
+        display: flex;
+        padding-left: 15%;
+        background-color: #C72D82;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }  
+    a{
+        color: azure;
+        text-decoration: none;
+        padding-right: 20px;
+    }
+    main{
+        padding-left: 15%;
+        display: flex;
+        padding-right: 30%;
+    }
+    section{
+        width: 70%;
+    }
+    article{
+        margin-top: 30px;
+    }
+    .post-tittle{
+        color: #41A4DD;
+        margin-bottom: 15px;
+    }
+    .post-img{
+        float: left;
+    }    
+    .post > p{
+        text-align: justify;
+        line-height: 22px;
+    }
+    .post-img{
+        width: 225px;
+        margin-right: 10px;
+    }
+    button{
+        background-color: #41A4DD;
+        color: azure;
+        border: none;
+        width: 120px;
+        height: 25px;
+        margin-top: 20px;
+    }
+    aside{
+        margin-left: 80px;
+    }
+    aside{
+        color: #41A4DD;
+        text-decoration: none;
+        margin-top: 30px;
+    }
+    ul{
+        list-style-type: none;
+        margin-top: 15px;
+    }
+    li > a{
+        color: #41A4DD;
+        margin-top: 20px;
+    }
+    footer{
+        background-color: #C72D82;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+        margin-right: 15%;
+        justify-content: space-between;
+        height: 180px;
+        color: azure;
+    }
+    #AboutUs > p{
+        margin-top: 30px;
+        width: 220px;
+    }
+    #Nav2{
+        text-align: right;
+    }
+    #Nav2 > a{
+        text-align: right;
+        padding-right: 0;
+        padding-left: 15px;
+    }
+    #der{
+        background-color: #9C2467;
+        color: azure;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
