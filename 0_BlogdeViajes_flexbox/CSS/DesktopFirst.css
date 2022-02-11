@@ -68,6 +68,9 @@
         list-style-type: none;
         margin-top: 15px;
     }
+    li{
+        margin-top: 7px;
+    }
     li > a{
         color: #41A4DD;
         margin-top: 20px;
